@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from datetime import datetime
 import urllib.request
+import urllib.parse
 from sqlalchemy import create_engine, text
 
 # --- Step 1: Connect to SQL Server and retrieve product references ---
